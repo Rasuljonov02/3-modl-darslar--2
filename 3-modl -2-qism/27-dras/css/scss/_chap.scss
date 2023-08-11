@@ -1,0 +1,103 @@
+@mixin menu {
+  color: #040a19;
+  font-family: Cera Compact Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.7px;
+}
+@mixin linklar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #040a19;
+  font-family: Cera Compact Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.chap {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    h2 {
+      @include menu();
+    }
+    .q {
+      color: #285fec;
+      font-family: Cera Compact Pro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.36px;
+    }
+    a {
+      @include linklar();
+    }
+  }
+}
+.support {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  h2 {
+    @include menu();
+  }
+}
+a {
+  text-decoration: none;
+  @include linklar();
+  display: flex;
+  align-items: center;
+}
+
+.update {
+  margin-top: 70px;
+  border-radius: 10px;
+  background: #e2e5ec;
+  text-align: center;
+  padding: 20px 10px;
+  position: relative;
+  height: 130px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  p{
+    color: #040A19;
+text-align: center;
+font-family: Cera Compact Pro;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.36px;
+  }
+  img {
+    position: absolute;
+    bottom: 118px;
+    left: 40px;
+  }
+
+  a {
+    border-radius: 3px;
+    background: #285fec;
+    color: #FFF;
+    font-family: Cera Compact Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    padding: 8px 20px;
+  }
+}

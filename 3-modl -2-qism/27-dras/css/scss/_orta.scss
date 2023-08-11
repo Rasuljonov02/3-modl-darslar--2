@@ -1,0 +1,126 @@
+.moshin {
+  width: 700px;
+  height: 350px;
+  background-image: url(/img/ortaimg/Rectangle\ 36.png);
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  .ply {
+    display: flex;
+    justify-content: center;
+  }
+  span {
+    display: flex;
+    align-items: center;
+    p {
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    justify-content: space-between;
+  }
+}
+// statistika
+.sat {
+  img {
+    width: 370px;
+  }
+}
+.mart {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 300px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  background: #fff;
+
+  a {
+    border-radius: 5px;
+    background: #285fec;
+    padding: 8px 20px;
+    color: #fff;
+    font-family: Cera Compact Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    width: 90px;
+    margin-left: 70px;
+  }
+  .livea {
+    display: flex;
+    justify-content: space-between;
+    p{
+      color: #040A19;
+font-family: Cera Compact Pro;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.51px;
+    }
+  }
+  span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.ufs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.statik {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+// engpasti
+
+.names {
+  box-sizing: border-box;
+  padding: 10px;
+  .team {
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    background: #fff;
+    justify-content: space-between;
+  }
+  .machtyin {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2rem;
+    h4 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #09090a;
+      font-family: Cera Compact Pro;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    h3 {
+      color: #040a19;
+      font-family: Cera Compact Pro;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+}

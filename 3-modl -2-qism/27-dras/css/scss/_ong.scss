@@ -1,0 +1,206 @@
+// boshi
+.livechat {
+  border-radius: 10px;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.textle {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  span {
+    display: flex;
+    gap: 10px;
+  }
+}
+.mailiy {
+  .jek {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+}
+.gnom {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px 0;
+  h3 {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+  }
+  //   gap: 7px;
+  span {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-decoration-line: underline;
+    p {
+      display: flex;
+    }
+  }
+}
+
+.ishkallar {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+}
+
+.tod {
+  display: flex;
+  justify-content: space-between;
+  p {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
+.minert {
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  .crfit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: #fff;
+    padding: 10px 5px;
+    box-shadow: 0px -4px 10px 0px rgba(4, 10, 25, 0.068);
+    h2 {
+      color: #040a19;
+      font-family: Cera Compact Pro;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 0.51px;
+    }
+    p {
+      color: #040a19;
+      font-family: Cera Compact Pro;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.42px;
+    }
+    h5 {
+      color: #ec28c1;
+      font-family: Cera Compact Pro;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 0.36px;
+      border-radius: 3px;
+      background: rgba(236, 40, 193, 0.06);
+      padding: 8px 15px;
+    }
+    span {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+}
+.tod {
+  h3 {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.54px;
+  }
+  p {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.42px;
+  }
+}
+.schedule {
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+.box2 {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.tod {
+  h3 {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.32px;
+  }
+  p {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    img {
+      width: 15px;
+    }
+  }
+}
+.crfit {
+  h3 {
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.54px;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    color: #040a19;
+    font-family: Cera Compact Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.24px;
+  }
+  a {
+    color: #fff;
+    font-family: Cera Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: #285fec;
+    padding: 8px 15px;
+  }
+}

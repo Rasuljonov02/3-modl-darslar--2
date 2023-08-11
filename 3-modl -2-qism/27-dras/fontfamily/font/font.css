@@ -1,0 +1,24 @@
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Black.woff);
+}
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Bold.woff);
+}
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Medium.woff2);
+}
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Light.woff2);
+}
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Regular.woff2);
+}
+@font-face {
+  font-family: font ;
+  src: url(./CeraCompactPro-Thin.woff2);
+}

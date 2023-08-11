@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hammasi {
+  background: #f7f9fa;
+  width: 100%;
+
+  display: flex;
+  height: auto;
+  .box {
+    box-sizing: border-box;
+    padding: 15px;
+  }
+  .chap {
+    background-color: white;
+    width: 15%;
+    height: auto;
+  }
+  .ong {
+    background: #f7f9fa;
+    width: 100%;
+    height: auto;
+  }
+}
+.hammasi {
+  .ong {
+    display: flex;
+    justify-content: space-between;
+    .box1 {
+     
+      width: 63%;
+      height: auto;
+
+      gap: 10px;
+    }
+    .box2 {
+      // background-color: #7da7bd;
+      width: 35%;
+      height: auto;
+    }
+  }
+}
+
+@import "./scss/index";
